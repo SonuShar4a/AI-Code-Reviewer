@@ -1,0 +1,137 @@
+ * {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+ }
+
+ #root {
+   background: #00000091;
+ }
+
+ html,
+ body,
+ #root {
+   height: 100%;
+   width: 100%;
+ }
+
+ main {
+   height: 100%;
+   width: 100%;
+   padding: 0.5rem;
+   display: flex;
+   gap: 1rem;
+ }
+
+ main .left,
+ main .right {
+   height: 100%;
+   flex-basis: 50%;
+   border-radius: 0.7rem;
+ }
+
+ main .left {
+   background-color: #000000;
+   position: relative;
+ }
+
+ .left .code,
+ .code pre,
+ .code pre code {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   border-radius: 0.7rem;
+   background-color: #0c0c0c;
+ }
+
+ main .left .reviewBtn {
+   position: absolute;
+   bottom: 1rem;
+   right: 1rem;
+   background-color: rgb(219, 219, 255);
+   color: #000000;
+   padding: 0.5rem 2rem;
+   font-weight: 500;
+   cursor: pointer;
+   user-select: none;
+   border-radius: 0.7rem;
+ }
+
+ main .right .reviewBtn {
+   position: absolute;
+   top: 4rem;
+   height: 28rem;
+   background-color: rgb(0, 0, 0);
+   color: #000000;
+   padding: 0.5rem 2rem;
+   font-weight: 500;
+   cursor: pointer;
+   user-select: none;
+   margin: 0rem 2rem;
+   border-radius: 0.7rem;
+ }
+
+ main .right .reviewBtn h2 span {
+   color: hsl(144, 96%, 57%);
+   ;
+ }
+
+ main .right .reviewBtn h2 {
+   color: white;
+   display: flex;
+   justify-content: center;
+ }
+
+ main .right .reviewBtn h3 {
+   color: hsl(144, 96%, 57%);
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+   font-size: 25px;
+
+ }
+
+ main .left .input {
+   position: absolute;
+   bottom: 1rem;
+   color: #000000;
+   padding: 0.5rem 2rem;
+   font-weight: 500;
+   cursor: pointer;
+   user-select: none;
+   border-radius: 0.7rem;
+ }
+
+ input {
+   height: 2.3rem;
+   width: 24rem;
+ }
+
+ main .right {
+   background-color: #343434;
+   color: #ccc;
+   padding: 1rem 2rem;
+
+   overflow: auto;
+ }
+
+ .icon {
+   position: absolute;
+   right: 1rem;
+   top: 1rem;
+   font-size: 2rem;
+ }
+
+ img {
+   display: block;
+   width: 8rem;
+   height: 8rem;
+   border-radius: 30px;
+   margin: 20px auto;
+ }
+
+ p {
+   margin-top: 0.5rem;
+   color: white;
+ }
